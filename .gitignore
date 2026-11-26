@@ -1,0 +1,22 @@
+# Secrets and environment variables
+.env
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local SQLite databases and WAL/SHM journal files
+data/*.db
+data/*.db-wal
+data/*.db-shm
+
+# Python bytecode and test caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# IDE settings
+.idea/
+.vscode/
